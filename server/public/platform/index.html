@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>后台管理系统</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .preload {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                width: 100vw;
+            }
+
+            .circular {
+                height: 42px;
+                width: 42px;
+                animation: loading-rotate 2s linear infinite;
+            }
+
+            .circular .path {
+                animation: loading-dash 1.5s ease-in-out infinite;
+                stroke-dasharray: 90, 150;
+                stroke-dashoffset: 0;
+                stroke-width: 2;
+                stroke: #4073fa;
+                stroke-linecap: round;
+            }
+
+            @keyframes loading-rotate {
+                100% {
+                    transform: rotate(1turn);
+                }
+            }
+
+            @keyframes loading-dash {
+                0% {
+                    stroke-dasharray: 90, 150;
+                    stroke-dashoffset: -40px;
+                }
+
+                100% {
+                    stroke-dasharray: 90, 150;
+                    stroke-dashoffset: -120px;
+                }
+            }
+        </style>
+      <script type="module" crossorigin src="/platform/assets/index-B_OJBac2.js"></script>
+      <link rel="modulepreload" crossorigin href="/platform/assets/balanced-match-mNcR6oh4.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/nprogress-Cgf5DU8x.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/@vue-TMcuEboY.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/vue-router-CZY6S6gL.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/pinia-ebUeA1L2.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/axios-C-n2IhIP.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/lodash-BtPWuHkK.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/lodash-es-R-kYiKr_.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/async-validator-DKvM95Vc.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/@element-plus-C2WBhajb.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/dayjs-CMfar2R3.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/@ctrl-r5W6hzzQ.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/normalize-wheel-es-B6fDCfyv.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/@popperjs-D9SI2xQl.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/element-plus-CSiqOtzA.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/@vueuse-DE_336rM.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/clone-CuIhj1wH.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/color-name-BQ5IbGbl.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/color-convert-BGgJB5UM.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/color-string-BhgG7-8u.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/color-B0v57BL7.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/ms-CzQ2E3wO.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/css-color-function-rJvg8h-6.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/clipboard-Dch_ozqB.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/vue-clipboard3-8CNoFg4V.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/tslib-BDyQ-Jie.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/zrender-B-CeXLwU.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/echarts-BR_QmBtV.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/highlight.js-D5uP1KGk.js">
+      <link rel="modulepreload" crossorigin href="/platform/assets/@highlightjs-KJi31KWJ.js">
+      <link rel="stylesheet" crossorigin href="/platform/assets/nprogress-IQvgPhqq.css">
+      <link rel="stylesheet" crossorigin href="/platform/assets/element-plus-H16U964L.css">
+      <link rel="stylesheet" crossorigin href="/platform/assets/highlight-CGk0_04g.css">
+      <link rel="stylesheet" crossorigin href="/platform/assets/index-Dk8TjgXa.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="preload">
+                <svg viewBox="25 25 50 50" class="circular">
+                    <circle cx="50" cy="50" r="20" fill="none" class="path"></circle>
+                </svg>
+            </div>
+        </div>
+    </body>
+</html>

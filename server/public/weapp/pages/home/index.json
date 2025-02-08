@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tabbar": "../../components/Tabbar",
+    "article-card": "../../components/ArticleCard",
+    "product-card": "../../components/ProductCard",
+    "title-content": "../../components/TitleContent"
+  }
+}

@@ -1,0 +1,390 @@
+$subTheme: #efc49b;
+
+:root {
+    // 弹窗居中
+    .el-overlay-dialog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100%;
+        position: static;
+
+        .el-dialog {
+            --el-dialog-content-font-size: var(--el-font-size-base);
+            --el-dialog-margin-top: 50px;
+            max-width: calc(100vw - 30px);
+            flex: none;
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+
+            &.body-padding .el-dialog__body {
+                padding: 0;
+            }
+
+            .el-dialog__body {
+                flex: 1;
+                padding: 15px 20px;
+            }
+            .el-dialog__header {
+                font-size: var(--el-font-size-large);
+            }
+        }
+    }
+
+    .el-menu {
+        user-select: none;
+    }
+
+    .el-drawer {
+        --el-drawer-padding-primary: 16px;
+        &__header {
+            margin-bottom: 0;
+            padding: 13px 16px;
+            border-bottom: 1px solid var(--el-border-color-lighter);
+        }
+        &__title {
+            @apply text-tx-primary;
+        }
+    }
+
+    .el-table {
+        --el-table-header-text-color: var(--el-text-color-primary);
+        --el-table-header-bg-color: var(--table-header-bg-color);
+        font-size: var(--el-font-size-base);
+
+        thead {
+            th {
+                font-weight: 400;
+            }
+        }
+    }
+
+    .el-input-group__prepend {
+        background-color: var(--el-fill-color-blank);
+    }
+
+    .el-checkbox {
+        --el-checkbox-font-size: var(--el-font-size-base);
+    }
+
+    .el-menu--popup-container {
+        &.theme-light {
+            .el-menu {
+                .el-menu-item {
+                    &.is-active {
+                        @apply bg-primary-light-9 border-primary border-r-2;
+                    }
+                }
+                .el-menu-item:hover,
+                .el-sub-menu__title:hover {
+                    color: var(--el-color-primary);
+                }
+            }
+        }
+        &.theme-dark {
+            .el-menu {
+                .el-menu-item {
+                    &.is-active {
+                        @apply bg-primary;
+                    }
+                }
+            }
+        }
+    }
+
+    .el-message-box {
+        --el-messagebox-width: 350px;
+    }
+    .el-date-editor {
+        --el-date-editor-datetimerange-width: 380px;
+        .el-range-input {
+            font-size: var(--el-font-size-small);
+        }
+    }
+
+    .el-button--primary {
+        --el-button-hover-link-text-color: var(--el-color-primary-light-3);
+    }
+    .el-button--success {
+        --el-button-hover-link-text-color: var(--el-color-success-light-3);
+    }
+    .el-button--info {
+        --el-button-hover-link-text-color: var(--el-color-info-light-3);
+    }
+    .el-button--warning {
+        --el-button-hover-link-text-color: var(--el-color-warning-light-3);
+    }
+    .el-button--danger {
+        --el-button-hover-link-text-color: var(--el-color-danger-light-3);
+    }
+    .el-image__error {
+        font-size: 12px;
+    }
+    .el-tabs__nav-wrap::after {
+        height: 1px;
+    }
+    .el-page-header {
+        &__breadcrumb {
+            margin-bottom: 0;
+        }
+    }
+
+    .el-input,
+    .el-select,
+    .el-textarea {
+        @apply shadow-primary-light-8;
+
+        box-shadow: 0 0 0 0 var(--tw-shadow-color);
+        &:focus-within {
+            box-shadow: 0 0 0 2px var(--tw-shadow-color);
+            border-radius: var(--el-input-border-radius, var(--el-border-radius-base));
+            transition: box-shadow ease 0.1s;
+        }
+    }
+
+    .el-checkbox__input,
+    .el-radio__input {
+        @apply shadow-primary-light-8;
+        border-radius: var(--el-checkbox-border-radius);
+
+        box-shadow: 0 0 0 0 var(--tw-shadow-color);
+        &:active {
+            box-shadow: 0 0 0 2px var(--tw-shadow-color);
+            transition: box-shadow ease 0s;
+        }
+    }
+
+    .el-date-editor.el-input__wrapper,
+    .el-date-editor.el-input__wrapper:hover {
+        box-shadow: 0 0 0 2px transparent;
+        transition: box-shadow ease 0.1s;
+        border: 1px solid var(--el-input-border-color, var(--el-border-color));
+    }
+
+    .el-range-editor.is-active,
+    .el-range-editor.is-active:hover {
+        @apply shadow-[rgba(100,100,100,0.4)];
+        box-shadow: 0 0 0 2px var(--tw-shadow-color);
+        border: 1px solid var(--el-input-focus-border-color);
+    }
+
+    .el-radio__input {
+        border-radius: var(--el-radio-input-border-radius);
+    }
+
+    .el-form-item.is-error .el-input,
+    .el-form-item.is-error .el-select,
+    .el-form-item.is-error .el-textarea,
+    .el-form-item.is-error .el-radio__input,
+    .el-form-item.is-error .el-checkbox {
+        @apply shadow-danger-light-8;
+    }
+}
+@media (max-width: 768px) {
+    .el-pagination > .el-pagination__jump {
+        display: none !important;
+    }
+    .el-pagination > .el-pagination__sizes {
+        display: none !important;
+    }
+}
+
+.el-button {
+    // 防止被tailwindcss默认样式覆盖
+    background-color: var(--el-button-bg-color, var(--el-color-white));
+
+    //覆盖el-button的点击样式
+    &:focus {
+        color: var(--el-button-text-color);
+        border-color: var(--el-button-border-color);
+        background-color: var(--el-button-bg-color);
+    }
+    &:hover {
+        color: var(--el-button-hover-text-color);
+        border-color: var(--el-button-hover-border-color);
+        background-color: var(--el-button-hover-bg-color);
+    }
+}
+
+.el-dropdown {
+    .el-tooltip__trigger {
+        outline: unset;
+    }
+}
+
+.theme-dark {
+    .el-menu-item.is-active {
+        color: var(--sub-theme) !important;
+        border-color: var(--sub-theme) !important;
+        background-color: rgba($subTheme, 0.1) !important;
+        border-right-width: 2px;
+    }
+
+    .el-menu .el-menu-item {
+        color: var(--sub-theme) !important;
+    }
+
+    .el-menu .el-menu-item:hover {
+        color: var(--sub-theme) !important;
+        background-color: rgba($subTheme, 0.1) !important;
+    }
+
+    .el-menu .el-sub-menu__title {
+        color: var(--sub-theme) !important;
+    }
+
+    .el-menu .el-sub-menu__title:hover {
+        color: var(--sub-theme) !important;
+        background-color: rgba($subTheme, 0.1) !important;
+    }
+
+    .el-dropdown-menu__item:not(.is-disabled):focus,
+    .el-dropdown-menu__item:not(.is-disabled):hover {
+        color: var(--sub-theme) !important;
+    }
+}
+
+.el-button.el-button--primary {
+    color: var(--sub-theme);
+}
+.el-button.el-button--primary:hover {
+    color: var(--sub-theme);
+}
+.el-button.el-button--primary.is-link {
+    color: var(--el-button-text-color);
+}
+.dark {
+    .el-date-table td.today .el-date-table-cell__text {
+        color: $subTheme;
+    }
+    .el-tabs__active-bar {
+        background-color: var(--el-color-white);
+    }
+
+    .el-select-dropdown__item.is-selected {
+        color: $subTheme;
+    }
+
+    .el-input__wrapper.is-focus,
+    .el-select__wrapper.is-focused,
+    .el-textarea__inner:focus,
+    .el-range-editor.is-active,
+    .el-range-editor.is-active:hover {
+        box-shadow: 0 0 0 1px rgb(228, 228, 228) inset;
+    }
+
+    .el-input,
+    .el-select,
+    .el-textarea {
+        @apply shadow-[rgba(100,100,100,0.4)];
+
+        box-shadow: 0 0 0 0 var(--tw-shadow-color);
+        &:focus-within {
+            box-shadow: 0 0 0 2px var(--tw-shadow-color);
+            border-radius: var(--el-input-border-radius, var(--el-border-radius-base));
+            transition: box-shadow ease 0.1s;
+        }
+    }
+
+    .el-date-editor.el-input__wrapper,
+    .el-date-editor.el-input__wrapper:hover {
+        box-shadow: 0 0 0 2px transparent;
+        transition: box-shadow ease 0.1s;
+        border: 1px solid var(--el-input-border-color, var(--el-border-color));
+    }
+
+    .el-range-editor.is-active,
+    .el-range-editor.is-active:hover {
+        @apply shadow-[rgba(100,100,100,0.4)];
+        box-shadow: 0 0 0 2px var(--tw-shadow-color);
+        border: 1px solid rgb(228, 228, 228);
+    }
+
+    .el-pager li.is-active,
+    .el-pager li:hover {
+        color: var(--el-text-color-primary);
+    }
+    .el-button.el-button--primary {
+        background-color: var(--el-button-text-color) !important;
+        color: var(--el-color-primary);
+    }
+    .el-button.el-button--primary:hover {
+        color: var(--el-color-primary);
+    }
+    .el-button.el-button--primary.is-link {
+        background-color: unset !important;
+        color: var(--sub-theme);
+    }
+    .el-tag {
+        --el-tag-text-color: var(--el-text-color-primary) !important;
+    }
+
+    .el-button {
+        &:hover {
+            color: var(--el-button-text-color);
+        }
+    }
+
+    .el-button.is-link {
+        --el-button-text-color: var(--el-color-white);
+        color: var(--el-button-text-color);
+    }
+
+    .el-tabs .el-tabs__item.is-active,
+    .el-tabs .el-tabs__item:hover {
+        color: var(--el-text-color-secondary);
+    }
+
+    .el-radio__input.is-checked + .el-radio__label {
+        color: var(--el-text-color-primary);
+    }
+
+    .el-checkbox__input.is-checked + .el-checkbox__label {
+        color: var(--el-text-color-primary);
+    }
+
+    .el-dropdown-menu__item:not(.is-disabled):hover {
+        background-color: rgba($subTheme, 0.1) !important;
+        color: var(--el-text-color-primary);
+    }
+
+    .theme-dark {
+        .el-menu {
+            background-color: unset;
+        }
+        .el-menu .el-menu-item {
+            color: var(--el-text-color-primary) !important;
+        }
+
+        .el-menu .el-sub-menu__title {
+            color: var(--el-text-color-primary) !important;
+        }
+        .el-menu .el-sub-menu__title:hover {
+            color: var(--el-text-color-primary) !important;
+            background-color: rgba(255, 255, 255, 0.2) !important;
+        }
+
+        .el-menu .el-menu-item:hover {
+            color: var(--el-text-color-primary) !important;
+            background-color: rgba(255, 255, 255, 0.2) !important;
+        }
+
+        .el-select-dropdown__item.is-selected {
+            color: var(--el-text-color-primary);
+            background-color: var(--el-color-primary-light-9);
+        }
+
+        .el-dropdown-menu__item:not(.is-disabled):focus,
+        .el-dropdown-menu__item:not(.is-disabled):hover {
+            color: var(--el-text-color-primary);
+        }
+
+        .el-menu-item.is-active {
+            color: var(--el-menu-text-color) !important;
+            border-right-width: 2px;
+            border-color: var(--el-text-color-primary) !important;
+            background-color: rgba(255, 255, 255, 0.1) !important;
+        }
+    }
+}

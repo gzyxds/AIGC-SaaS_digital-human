@@ -1,0 +1,1 @@
+import{_ as o}from"./EjTgL1kZ.js";import{_ as c,o as t,c as n,b as _}from"./iBiA3qHo.js";const r={},s={class:"flex flex-1 flex-col overflow-y-auto overflow-x-hidden"};function a(f,l){const e=o;return t(),n("section",s,[_(e)])}const d=c(r,[["render",a]]);export{d as default};

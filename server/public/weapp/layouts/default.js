@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js"),r={};if(!Array){(()=>"../components/layout/ThemeProvider.js")()}const o=e._export_sfc(r,[["render",function(e,r){return{}}]]);wx.createComponent(o);

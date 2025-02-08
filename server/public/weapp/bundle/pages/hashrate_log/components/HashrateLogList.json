@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "z-paging": "../../../../node-modules/z-paging/components/z-paging/z-paging"
+  }
+}

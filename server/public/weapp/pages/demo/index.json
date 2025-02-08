@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "uni-popup-dialog": "../../node-modules/@dcloudio/uni-ui/lib/uni-popup-dialog/uni-popup-dialog",
+    "uni-popup": "../../node-modules/@dcloudio/uni-ui/lib/uni-popup/uni-popup",
+    "uni-easyinput": "../../node-modules/@dcloudio/uni-ui/lib/uni-easyinput/uni-easyinput",
+    "uni-data-select": "../../node-modules/@dcloudio/uni-ui/lib/uni-data-select/uni-data-select",
+    "action-sheet": "../../components/ActionSheet",
+    "confirm-modal": "../../components/ConfirmModal",
+    "pro-picker": "../../components/ProPicker"
+  }
+}

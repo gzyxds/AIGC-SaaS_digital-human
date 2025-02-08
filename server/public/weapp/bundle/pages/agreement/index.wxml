@@ -1,0 +1,1 @@
+<layout-default-uni u-s="{{['d']}}" u-i="7fa9a912-0" bind:__l="__l"><view class="px-24rpx py-16rpx"><mp-html wx:if="{{a}}" u-i="7fa9a912-1,7fa9a912-0" bind:__l="__l" u-p="{{a}}"/></view></layout-default-uni>

@@ -1,0 +1,1 @@
+"use strict";const t=require("../enums/variableEnum.js");exports.isEnable=s=>{if(void 0===s)return!1;let e;return e="number"==typeof s?String(s):s,e===t.StatusEnum.YES},exports.isTaskPendding=s=>s===t.TaskStatusEnum.PENDDING||String(s)===t.TaskStatusEnum.PENDDING;

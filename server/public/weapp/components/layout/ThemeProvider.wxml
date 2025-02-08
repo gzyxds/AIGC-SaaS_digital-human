@@ -1,0 +1,1 @@
+<view class="dark"><slot/></view>

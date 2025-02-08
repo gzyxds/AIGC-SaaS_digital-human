@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "账号设置",
+  "usingComponents": {
+    "confirm-modal": "../../../components/ConfirmModal"
+  }
+}

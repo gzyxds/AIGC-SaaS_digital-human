@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uv-safe-bottom": "../../../uv-safe-bottom/components/uv-safe-bottom/uv-safe-bottom"
+  }
+}

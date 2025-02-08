@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$theme: #135dec;
+
+@layer base {
+    :root {
+        --theme: #135dec;
+        --background: 255 255 255;
+        --background-soft: 247 248 251;
+        --foreground: var(--color-gray-900);
+        --border: var(--color-gray-300);
+        --border-soft: var(--color-gray-200);
+        --primary: var(--color-primary-500);
+        --primary-foreground: var(--color-primary-500);
+
+        --scrollbar-color: #ecececb6;
+        --scrollbar-color-hover: #e3e3e3;
+
+        /*  Tailwind colors */
+        --DEFAULT: 53 83 254;
+        --50: 235 238 255;
+        --100: 214 220 255;
+        --200: 174 186 255;
+        --300: 133 151 254;
+        --400: 93 117 254;
+        --500: 53 83 254;
+        --600: 1 38 244;
+        --700: 1 28 183;
+        --800: 1 19 122;
+        --900: 0 9 61;
+        --950: 0 5 31;
+    }
+
+    .dark {
+        --background: var(--color-gray-900);
+        --background-soft: 14 14 17;
+        --foreground: 255 255 255;
+        --border: var(--color-gray-700);
+        --border-soft: var(--color-gray-800);
+        --primary: var(--color-primary-500);
+        --primary-foreground: var(--color-primary-500);
+
+        --scrollbar-color: #424242;
+        --scrollbar-color-hover: #676767;
+
+        /*  Tailwind colors */
+        --DEFAULT: 53 83 254;
+        --50: 214 220 255;
+        --100: 174 186 255;
+        --200: 133 151 254;
+        --300: 93 117 254;
+        --400: 53 83 254;
+        --500: 0 37 245;
+        --600: 1 28 183;
+        --700: 1 19 122;
+        --800: 0 9 61;
+        --900: 0 5 30;
+        --950: 0 4 28;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+        scrollbar-width: thin;
+
+        scrollbar-color: var(--scrollbar-color) transparent;
+        &:hover {
+            scrollbar-color: var(--scrollbar-color-hover) transparent;
+        }
+    }
+
+    body {
+        @apply bg-gradient-to-br from-primary/15 to-blue-500/5 text-foreground dark:from-background-soft dark:to-background-soft md:to-pink-300/10;
+    }
+}
+
+.driver-popover-close-btn:hover,
+.driver-popover-close-btn:focus {
+    color: rgba(var(--foreground), 0.5) !important;
+}
+.driver-popover {
+    background-color: rgb(var(--background)) !important;
+    color: rgb(var(--foreground)) !important;
+}
+.driver__class {
+    .driver-popover-footer button {
+        text-shadow: none;
+        @apply bg-primary-500 hover:bg-primary-600 disabled:bg-primary-500 aria-disabled:bg-primary-500 dark:bg-primary-400 dark:hover:bg-primary-500 dark:disabled:bg-primary-400 dark:aria-disabled:bg-primary-400 focus-visible:outline-primary-500 dark:focus-visible:outline-primary-400 inline-flex flex-shrink-0 items-center gap-x-1.5 rounded-full border-none px-3 py-1 text-sm font-medium text-white shadow-sm focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 disabled:cursor-not-allowed disabled:opacity-75 aria-disabled:cursor-not-allowed aria-disabled:opacity-75 dark:text-white;
+    }
+}
+
+.gradient {
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        rgb(var(--color-primary-500) / 0.4) 0,
+        rgba(0, 0, 0, 0)
+    );
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+}
+
+.landing-grid {
+    background-image: linear-gradient(to right, rgb(var(--color-gray-200)) 1px, transparent 1px),
+        linear-gradient(to bottom, rgb(var(--color-gray-200)) 1px, transparent 1px);
+    background-size: 100px 100px;
+}
+
+.dark {
+    .gradient {
+        background: radial-gradient(
+            50% 50% at 50% 50%,
+            rgb(var(--color-primary-500) / 0.3) 0,
+            rgba(0, 0, 0, 0)
+        );
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+    }
+
+    .landing-grid {
+        background-image: linear-gradient(
+                to right,
+                rgb(var(--color-gray-800)) 1px,
+                transparent 1px
+            ),
+            linear-gradient(to bottom, rgb(var(--color-gray-800)) 1px, transparent 1px);
+    }
+}

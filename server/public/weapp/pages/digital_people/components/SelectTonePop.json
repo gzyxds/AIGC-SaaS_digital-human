@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "empty-status": "../../../components/EmptyStatus",
+    "z-paging": "../../../node-modules/z-paging/components/z-paging/z-paging",
+    "uni-popup": "../../../node-modules/@dcloudio/uni-ui/lib/uni-popup/uni-popup"
+  }
+}

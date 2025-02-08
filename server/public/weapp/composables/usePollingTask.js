@@ -1,0 +1,1 @@
+"use strict";const r=require("../router/index.js");exports.usePollingTask=(e,t)=>{let l=null;const n=r=>{l&&(clearInterval(l),l=null),null==r||r()};return r.router.beforeEach((()=>{n()})),{start:r=>{l&&n(),l=setInterval((async()=>{try{await e(n)}catch(r){throw n(),new Error(`轮询任务执行失败，错误信息：${r}`)}}),3e3),null==r||r()},clear:n}};

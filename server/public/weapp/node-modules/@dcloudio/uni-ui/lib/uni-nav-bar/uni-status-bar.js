@@ -1,0 +1,1 @@
+"use strict";const t=require("../../../../../common/vendor.js"),e={name:"UniStatusBar",data:()=>({statusBarHeight:t.index.getWindowInfo().statusBarHeight+"px"})};const n=t._export_sfc(e,[["render",function(t,e,n,r,a,s){return{a:a.statusBarHeight}}]]);wx.createComponent(n);

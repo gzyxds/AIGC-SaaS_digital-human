@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/demo/index",
+    "pages/create_profile/index",
+    "pages/create_sound/index",
+    "pages/digital_people/index",
+    "pages/login/bind",
+    "pages/login/index",
+    "pages/product/index",
+    "pages/user/index",
+    "pages/create_sound/components/SoundPop",
+    "pages/digital_people/components/SelectProfilePop",
+    "pages/digital_people/components/SelectTonePop",
+    "pages/product/components/ProductList",
+    "pages/user/components/KefuPop",
+    "pages/user/components/UserService"
+  ],
+  "subPackages": [
+    {
+      "root": "bundle",
+      "pages": [
+        "pages/agreement/index",
+        "pages/article/index",
+        "pages/article_detail/index",
+        "pages/hashrate/index",
+        "pages/hashrate_log/index",
+        "pages/user_set/index",
+        "pages/profile/index",
+        "pages/change_nickname/index",
+        "pages/change_mobile/index",
+        "pages/change_password/index",
+        "pages/play_video/index"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundColor": "#0C0C0C",
+    "backgroundColorBottom": "#212122",
+    "backgroundColorTop": "#0C0C0C",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0C0C0C",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "AI数字人系统"
+  },
+  "tabBar": {
+    "backgroundColor": "#212122",
+    "borderStyle": "black",
+    "color": "#A9AEB0",
+    "selectedColor": "#135dec",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "/static/icons/tabbar/home-inactive.png",
+        "selectedIconPath": "/static/icons/tabbar/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/product/index",
+        "iconPath": "/static/icons/tabbar/product-inactive.png",
+        "selectedIconPath": "/static/icons/tabbar/product-active.png",
+        "text": "作品"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "/static/icons/tabbar/user-inactive.png",
+        "selectedIconPath": "/static/icons/tabbar/user-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "themeLocation": "theme.json",
+  "darkmode": true,
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {
+    "layout-auth-uni": "/layouts/auth",
+    "layout-default-uni": "/layouts/default"
+  }
+}

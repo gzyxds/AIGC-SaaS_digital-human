@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "算力明细",
+  "usingComponents": {
+    "hashrate-log-list": "./components/HashrateLogList"
+  }
+}

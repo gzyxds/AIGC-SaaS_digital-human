@@ -1,0 +1,1 @@
+import{aD as a,aC as e}from"./index-CTSv8bdf.js";const t=a=>e("/video.avatarVideo/lists",a),o=e=>a("/video.avatarVideo/add",e),d=e=>a("/video.avatarVideo/delete",e),s=a=>e("/avatar.aiAvatarRecord/lists",a),r=e=>a("/avatar.aiAvatarRecord/delete",e),i=e=>a("/complete.flow/createCompleteFlow",e);export{s as a,o as b,i as c,t as d,r as e,d as f};

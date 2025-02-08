@@ -1,0 +1,1 @@
+<layout-default-uni class="data-v-217c1e4b" u-s="{{['d']}}" u-i="217c1e4b-0" bind:__l="__l"><view class="px-3 py-2 data-v-217c1e4b"><video wx:if="{{a}}" src="{{b}}" controls show-mute-btn="{{true}}" vslide-gesture="{{true}}" class="video-play data-v-217c1e4b"/><view wx:else class="data-v-217c1e4b"> 缺少视频资源 </view></view></layout-default-uni>

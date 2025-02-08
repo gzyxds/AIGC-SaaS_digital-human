@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "修改昵称",
+  "usingComponents": {
+    "uni-easyinput": "../../../node-modules/@dcloudio/uni-ui/lib/uni-easyinput/uni-easyinput",
+    "uni-forms-item": "../../../node-modules/@dcloudio/uni-ui/lib/uni-forms-item/uni-forms-item",
+    "uni-forms": "../../../node-modules/@dcloudio/uni-ui/lib/uni-forms/uni-forms"
+  }
+}

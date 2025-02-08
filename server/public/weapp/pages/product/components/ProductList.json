@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "action-sheet": "../../../components/ActionSheet",
+    "empty-status": "../../../components/EmptyStatus",
+    "product-card": "../../../components/ProductCard",
+    "z-paging": "../../../node-modules/z-paging/components/z-paging/z-paging"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uv-icon": "../../../uv-icon/components/uv-icon/uv-icon",
+    "uv-badge": "../../../uv-badge/components/uv-badge/uv-badge"
+  }
+}

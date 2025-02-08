@@ -1,0 +1,1 @@
+import{r as t}from"./index-DkCvA8ar.js";function s(n){return t.post({url:"/channel.mnp_settings/setConfig",params:n})}function o(){return t.get({url:"/channel.mnp_settings/getConfig"})}function p(n){return t.post({url:"/channel.mnp_settings/uploadMnp",params:n,timeout:1200*1e3})}export{o as g,s,p as u};

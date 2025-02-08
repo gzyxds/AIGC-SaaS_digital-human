@@ -1,0 +1,1 @@
+import{_ as o}from"./EjTgL1kZ.js";import{_ as t,o as c,c as n,b as _}from"./iBiA3qHo.js";const r={},s={class:"flex flex-1 flex-col overflow-x-hidden md:overflow-y-auto"};function a(f,l){const e=o;return c(),n("div",s,[_(e)])}const x=t(r,[["render",a]]);export{x as default};

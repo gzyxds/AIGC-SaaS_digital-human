@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" bindtap="{{b}}" class="pl-2 text-primary"> 获取验证码 </view><view wx:else class="mr-4 center"><uni-countdown wx:if="{{d}}" bindtimeup="{{c}}" u-i="a5a4c8d8-0" bind:__l="__l" u-p="{{d}}"/><view class="text-primary"> 秒 </view></view>

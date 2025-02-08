@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-countdown": "../node-modules/@dcloudio/uni-ui/lib/uni-countdown/uni-countdown"
+  }
+}

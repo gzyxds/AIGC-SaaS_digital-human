@@ -1,0 +1,472 @@
+[
+    {
+        "id": 1,
+        "name": "龙臣",
+        "voice_name": "longchen",
+        "type": "译制片男声",
+        "scene": ["译制片"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 2,
+        "name": "龙熊",
+        "voice_name": "longxiong",
+        "type": "译制片男声",
+        "scene": ["译制片"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 3,
+        "name": "龙玉",
+        "voice_name": "longyu",
+        "type": "御姐女声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 4,
+        "name": "龙娇",
+        "voice_name": "longjiao",
+        "type": "御姐女声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 5,
+        "name": "龙玫",
+        "voice_name": "longmei",
+        "type": "温柔女声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 6,
+        "name": "龙瑰",
+        "voice_name": "longgui",
+        "type": "温柔女声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 7,
+        "name": "龙乒",
+        "voice_name": "longping",
+        "type": "体育解说男声",
+        "scene": ["体育赛事解说"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 8,
+        "name": "龙乓",
+        "voice_name": "longpang",
+        "type": "体育解说男声",
+        "scene": ["体育赛事解说"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 9,
+        "name": "龙无",
+        "voice_name": "longwu",
+        "type": "无厘头男声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 10,
+        "name": "龙奇",
+        "voice_name": "longqi",
+        "type": "活泼童声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 11,
+        "name": "龙仙",
+        "voice_name": "longxian_normal",
+        "type": "阳光女声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 12,
+        "name": "龙菲",
+        "voice_name": "longfeifei",
+        "type": "成熟女声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 13,
+        "name": "龙修",
+        "voice_name": "longxiu",
+        "type": "青年男声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 14,
+        "name": "龙大锤",
+        "voice_name": "longdachui",
+        "type": "幽默男声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 15,
+        "name": "龙佳佳",
+        "voice_name": "longjiajia",
+        "type": "亲和女声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 16,
+        "name": "龙嘉怡",
+        "voice_name": "longjiayi",
+        "type": "粤语女声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 17,
+        "name": "龙桃",
+        "voice_name": "longtao",
+        "type": "粤语女声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 18,
+        "name": "龙嘉欣",
+        "voice_name": "longjiaxin",
+        "type": "粤语女声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 19,
+        "name": "龙橙",
+        "voice_name": "longcheng",
+        "type": "阳光男声",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 20,
+        "name": "龙哲",
+        "voice_name": "longzhe",
+        "type": "成熟男声",
+        "scene": ["对话闲聊", "新闻播报", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 21,
+        "name": "龙楠",
+        "voice_name": "longnan",
+        "type": "青年男声",
+        "scene": ["新闻播报", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 22,
+        "name": "龙颜",
+        "voice_name": "longyan",
+        "type": "亲切女声",
+        "scene": ["智能客服", "对话闲聊", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 23,
+        "name": "龙嫱",
+        "voice_name": "longqiang",
+        "type": "慵懒女声",
+        "scene": ["对话闲聊", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 24,
+        "name": "龙华",
+        "voice_name": "longhua",
+        "type": "活泼女童",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 25,
+        "name": "龙星",
+        "voice_name": "longxing",
+        "type": "暖心女声",
+        "scene": ["智能客服", "对话闲聊"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 26,
+        "name": "龙津",
+        "voice_name": "longjin",
+        "type": "青年男声",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 27,
+        "name": "龙寒",
+        "voice_name": "longhan",
+        "type": "青年男声",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 28,
+        "name": "龙天",
+        "voice_name": "longtian",
+        "type": "霸总男声",
+        "scene": ["对话闲聊", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 29,
+        "name": "龙硕",
+        "voice_name": "longshuo",
+        "type": "沉稳男声",
+        "scene": ["智能客服", "新闻播报", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 30,
+        "name": "Stella2.0",
+        "voice_name": "loongstella",
+        "type": "飒爽女声",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 31,
+        "name": "龙小诚",
+        "voice_name": "longxiaocheng",
+        "type": "气质大叔",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 32,
+        "name": "龙小夏",
+        "voice_name": "longxiaoxia",
+        "type": "温柔女声",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 33,
+        "name": "龙小淳",
+        "voice_name": "longxiaochun",
+        "type": "温柔姐姐",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 34,
+        "name": "龙小白",
+        "voice_name": "longxiaobai",
+        "type": "闲聊女声",
+        "scene": ["新闻播报", "对话闲聊", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 35,
+        "name": "龙老铁",
+        "voice_name": "longlaotie",
+        "type": "东北男声",
+        "scene": ["对话闲聊", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 36,
+        "name": "龙悦",
+        "voice_name": "longyue",
+        "type": "评书女声",
+        "scene": ["智能客服", "新闻播报", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 37,
+        "name": "Bella2.0",
+        "voice_name": "loongbella",
+        "type": "新闻女声",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 38,
+        "name": "龙书",
+        "voice_name": "longshu",
+        "type": "新闻男声",
+        "scene": ["新闻播报", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 39,
+        "name": "龙婧",
+        "voice_name": "longjing",
+        "type": "严肃女声",
+        "scene": ["新闻播报", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 40,
+        "name": "龙妙",
+        "voice_name": "longmiao",
+        "type": "气质女声",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物", "车载导航"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 41,
+        "name": "龙老李",
+        "voice_name": "libai",
+        "type": "普通话男声",
+        "scene": ["诗词朗诵", "散文", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 42,
+        "name": "龙婉",
+        "voice_name": "longwan",
+        "type": "普通话女声",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 43,
+        "name": "龙可",
+        "voice_name": "longke",
+        "type": "活泼女童",
+        "scene": ["智能客服", "对话闲聊", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 44,
+        "name": "龙铃",
+        "voice_name": "longling",
+        "type": "活泼女童",
+        "scene": ["智能客服", "对话闲聊", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 45,
+        "name": "龙绍",
+        "voice_name": "longshao",
+        "type": "活力男声",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 46,
+        "name": "龙泽",
+        "voice_name": "longze",
+        "type": "阳光男声",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    },
+    {
+        "id": 47,
+        "name": "龙浩",
+        "voice_name": "longhao",
+        "type": "温暖男声",
+        "scene": ["智能客服", "新闻播报", "对话闲聊", "有声读物"],
+        "language": "中文及中英文混合",
+        "samplingRate": "8k/16k/24k",
+        "timeStamp": "否"
+    }
+]

@@ -1,0 +1,1 @@
+<view class="flex flex-col items-center justify-center h-full"><image src="{{a}}" class="w-_a_400rpx_a_ h-_a_400rpx_a_"></image><view class="text-sm text-foreground-muted">暂无内容，快去创作吧</view><view class="w-full px-15 mt-6"><button wx:if="{{b}}" type="primary" bindtap="{{d}}">{{c}}</button></view></view>

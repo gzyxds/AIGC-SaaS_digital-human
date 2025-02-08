@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "算力充值",
+  "usingComponents": {
+    "mp-html": "../../../uni_modules/mp-html/components/mp-html/mp-html",
+    "uv-qrcode": "../../../uni_modules/uv-qrcode/components/uv-qrcode/uv-qrcode",
+    "uni-popup": "../../../node-modules/@dcloudio/uni-ui/lib/uni-popup/uni-popup"
+  }
+}

@@ -1,0 +1,1 @@
+import{ax as o,az as e}from"./iBiA3qHo.js";const t=()=>o("/power.powerPackage/lists"),i=()=>e("/power.powerConfig/getVoiceCloneConfig"),a=()=>e("/power.powerConfig/getVoiceConfig"),n=()=>e("/power.powerConfig/getAllAvatarConfig");export{a,n as b,t as c,i as d};

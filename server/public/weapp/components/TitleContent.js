@@ -1,0 +1,1 @@
+"use strict";const e=require("../common/vendor.js"),t=require("../common/assets.js"),o=e.defineComponent({__name:"TitleContent",props:{title:{}},emits:["toPage"],setup(o,{emit:s}){const n=s;return(o,s)=>({a:e.t(o.title||""),b:t._imports_0$4,c:e.o((e=>n("toPage")))})}}),s=e._export_sfc(o,[["__scopeId","data-v-b6ef2744"]]);wx.createComponent(s);

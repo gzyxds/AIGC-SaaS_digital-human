@@ -1,0 +1,1 @@
+import{aE as r,ba as t}from"./index-CTSv8bdf.js";const a=r=>{if(void 0===r)return!1;let a;return a="number"==typeof r?String(r):r,a===t.YES},e=t=>t===r.PENDDING||String(t)===r.PENDDING;export{a,e as i};

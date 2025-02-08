@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uv-tabbar-item": "../uni_modules/uv-tabbar/components/uv-tabbar-item/uv-tabbar-item",
+    "uv-tabbar": "../uni_modules/uv-tabbar/components/uv-tabbar/uv-tabbar"
+  }
+}

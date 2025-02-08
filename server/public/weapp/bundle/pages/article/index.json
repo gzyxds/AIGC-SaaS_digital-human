@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "文章资讯",
+  "usingComponents": {
+    "article-card": "../../../components/ArticleCard",
+    "z-paging": "../../../node-modules/z-paging/components/z-paging/z-paging"
+  }
+}

@@ -1,0 +1,109 @@
+<?php
+// +----------------------------------------------------------------------
+// | likeadmin快速开发前后端分离管理后台（PHP版）
+// +----------------------------------------------------------------------
+// | 欢迎阅读学习系统程序代码，建议反馈是我们前进的动力
+// | 开源版本可自由商用，可去除界面版权logo
+// | gitee下载：https://gitee.com/likeshop_gitee/likeadmin
+// | github下载：https://github.com/likeshop-github/likeadmin
+// | 访问官网：https://www.likeadmin.cn
+// | likeadmin团队 版权所有 拥有最终解释权
+// +----------------------------------------------------------------------
+// | author: likeadminTeam
+// +----------------------------------------------------------------------
+
+namespace app\common\model\avatar;
+
+
+use app\common\model\BaseModel;
+use app\common\model\file\TenantFile;
+use app\common\model\user\User;
+use app\common\model\video\TenantVideo;
+use app\common\model\voicerecord\TenantVoiceRecord;
+use app\common\service\FileService;
+
+
+/**
+ * TenantAiAvatarRecord模型
+ * Class TenantAiAvatarRecord
+ * @package app\common\model\avatar
+ */
+class TenantAiAvatarRecord extends BaseModel
+{
+
+    protected $name = 'tenant_ai_avatar_record';
+
+
+    /**
+     * @notes 关联声音素材关联
+     * @return \think\model\relation\HasOne
+     * @author likeadmin
+     * @date 2024/10/09 22:23
+     */
+    public function voice()
+    {
+        return $this->hasOne(TenantVoiceRecord::class, 'file_id', 'voice_id');
+    }
+
+    /**
+     * @notes 关联关联视频素材
+     * @return \think\model\relation\HasOne
+     * @author likeadmin
+     * @date 2024/10/09 22:23
+     */
+    public function video()
+    {
+        return $this->hasOne(TenantVideo::class, 'id', 'video_id');
+    }
+
+    /**
+     * @notes 关联生成文件关联
+     * @return \think\model\relation\HasOne
+     * @author likeadmin
+     * @date 2024/10/09 22:23
+     */
+    public function file()
+    {
+        return $this->hasOne(TenantFile::class, 'id', 'file_id');
+    }
+
+    /**
+     * @notes 用户关联
+     * @return \think\model\relation\HasOne
+     * @author yfdong
+     * @date 2024/11/08 23:52
+     */
+    public function user()
+    {
+        return $this->hasOne(User::class, 'id', 'uid');
+    }
+
+    /**
+     * @notes 封面获取器
+     * @param $value
+     * @return string
+     * @author yfdong
+     * @date 2024/10/28 23:48
+     */
+    public function getCoverAttr($value)
+    {
+        return trim($value) ? FileService::getFileUrl($value) : '';
+    }
+
+    /**
+     * @notes 时长格式处理器
+     * @param $value
+     * @return string
+     * @author yfdong
+     * @date 2024/10/28 23:48
+     */
+//    public function getDurationAttr($value)
+//    {
+//        if(isset($value)){
+//            $value = (new UtilService)->secondsToHMS((int)$value);
+//        }
+//        return $value;
+//    }
+
+
+}

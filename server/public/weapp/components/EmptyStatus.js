@@ -1,0 +1,1 @@
+"use strict";const t=require("../common/vendor.js"),e=require("../common/assets.js"),o=t.defineComponent({__name:"EmptyStatus",props:{showButton:{type:Boolean,default:!0},buttonText:{default:""}},emits:["handle"],setup(o,{emit:n}){const s=n;return(o,n)=>t.e({a:e._imports_0$5,b:o.showButton},o.showButton?{c:t.t(o.buttonText),d:t.o((t=>s("handle")))}:{})}});wx.createComponent(o);
