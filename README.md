@@ -1,5 +1,10 @@
 ![AI数字人系统源码](https://doc.urlnet.cn/images/home/banner_img.png)
+![AI数字人系统源码](https://urlnet.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/11/20241203114938088769.webp)
+![AI数字人系统源码](https://urlnet.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/11/20241203114948020347.webp)
+![AI数字人系统源码](https://urlnet.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/11/20241203114354151776.webp)
 
+![AI数字人系统源码](https://urlnet.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/11/20241203114912385850.webp)
+![AI数字人系统源码](https://urlnet.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/11/20241203114401123795.webp)
 
 # AI数字人系统源码
 
