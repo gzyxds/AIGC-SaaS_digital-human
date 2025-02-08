@@ -1,40 +1,24 @@
+以github README.md 的格式帮我美化下
 
-title: 'AI数字人系统源码'  # 修改为您想要的标题
-description: '专注提供AI数字人直播带货解决方案的技术团队「数字人直播系统」「虚拟主播系统」「AI语音合成系统」拥有PHP和Java两种语言版本，支持多平台直播，支持真人面部捕捉，打造专属数字人IP'  # 修改为您想要的描述
-layout: home
-hero:
-  name: 无限多开、全开源
-  text: AIGC数字人SaaS系统
-  tagline: 🤖 专为企业主、个人博主打造短视频IP的数字人源码系统，支持真人声音+形象克隆，一键合成知识付费、课程、带货、形象宣传、行业干货等口播视频。基于SaaS多开模式的架构设计，支持无限OEM贴牌开通站点。版本免费迭代升级+售后技术支撑，让你无后顾之忧！
-  actions:
-    - theme: brand
-      text: 🚀 获取演示
-      link: /product/aigc/demo.html
-      class: 'primary-btn'
+# AI数字人系统源码
 
-    - theme: brand
-      text: 🎨 在线体验
-      link: /product/aigc/demo
-      class: 'demo-btn'
+专注提供AI数字人直播带货解决方案的技术团队「数字人直播系统」「虚拟主播系统」「AI语音合成系统」拥有PHP和Java两种语言版本，支持多平台直播，支持真人面部捕捉，打造专属数字人IP。
 
-    - theme: alt
-      text: 💻 获取源码
-      link: /product/Project/contact.html
-      class: 'code-btn'
+## 无限多开、全开源
 
-    - theme: alt    
-      text: 🖥️ 官网
-      link: https://www.urlnet.cn/
-      class: 'contact-btn'
+### AIGC数字人SaaS系统
 
-  image:
-    src: \images\home\human.png
-    alt: 'CHATAIGC'
-    width: ''
-    height: ''
-  description: ''
-  features: []
-  head: []
+🤖 专为企业主、个人博主打造短视频IP的数字人源码系统，支持真人声音+形象克隆，一键合成知识付费、课程、带货、形象宣传、行业干货等口播视频。基于SaaS多开模式的架构设计，支持无限OEM贴牌开通站点。版本免费迭代升级+售后技术支撑，让你无后顾之忧！
+
+## 快速开始
+
+- 🚀 **获取演示**: [点击查看](/product/aigc/demo.html)
+- 🎨 **在线体验**: [立即体验](/product/aigc/demo)
+- 💻 **获取源码**: [联系我们](/product/Project/contact.html)
+- 🖥️ **访问官网**: [更多详情](https://www.urlnet.cn/)
+
+ 
+
 features:
   - icon: 🤖
     title: 数字人直播
