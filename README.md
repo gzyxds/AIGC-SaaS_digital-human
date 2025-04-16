@@ -1,4 +1,4 @@
-![AI数字人系统源码](https://doc.urlnet.cn/images/home/banner_img.png)
+![AI数字人系统源码](https://dochttps://artaigc.cn/images/home/banner_img.png)
 ![AI数字人系统源码](https://urlnet.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/11/20241203114938088769.webp)
 ![AI数字人系统源码](https://urlnet.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/11/20241203114948020347.webp)
 ![AI数字人系统源码](https://urlnet.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/11/20241203114354151776.webp)
@@ -21,7 +21,7 @@
 - 🚀 **获取演示**: [点击查看](https://doc.artaigc.cn/product/aigc/demo.html)
 - 🎨 **在线体验**: [立即体验](https://doc.artaigc.cn/product/aigc/demo)
 - 💻 **获取源码**: [联系我们](https://doc.artaigc.cn/product/Project/contact.html)
-- 🖥️ **访问官网**: [更多详情](https://www.urlnet.cn/)
+- 🖥️ **访问官网**: [更多详情](https://artaigc.cn)
 
 
 # AI数字人系统源码
@@ -33,22 +33,22 @@
 ### 数字人直播 🤖
 👉 PHP && Java 持续更新中  
 支持抖音、快手、视频号等平台直播，支持多种数字人形象，可实现24小时自动直播带货  
-[了解更多](https://www.urlnet.cn)
+[了解更多](https://artaigc.cn)
 
 ### 虚拟主播 🎭
 👉 PHP && Java 持续更新中  
 支持多种虚拟形象，可实现真人面部捕捉，实时互动，打造专属虚拟主播  
-[了解更多](https://www.urlnet.cn)
+[了解更多](https://artaigc.cn)
 
 ### AI语音合成 🗣️
 👉 PHP && Java 持续更新中  
 支持多种语音合成引擎，可实现实时语音对话，打造逼真的数字人交互体验  
-[了解更多](https://www.urlnet.cn)
+[了解更多](https://artaigc.cn)
 
 ### 视频生成 🎬
 👉 高性能的AI视频生成系统  
 支持一键生成数字人短视频，可批量制作带货、直播等内容  
-[了解更多](https://www.urlnet.cn)
+[了解更多](https://artaigc.cn)
 
 ### 全场景支持 🎯
 支持抖音、快手、视频号等多个直播平台，支持电商带货、知识分享、产品讲解等多种场景应用
@@ -148,7 +148,7 @@
 什么是数字人？ 🚀
 - 在深入了解数字人产品之前，这份文档将帮助你节省大量时间。如果有任何未提及的问题，欢迎你的反馈和建议！
 - [飞书文档](https://rwm01l8tn3x.feishu.cn/docx/NzyOdZ9yFoAfjfxTGZwc9aMpntg?from=from_copylink)
-- 🖥️官网：[https://www.urlnet.cn/](https://www.urlnet.cn/)
+- 🖥️官网：[https://artaigc.cn](https://artaigc.cn)
 - AI数字人PPT：[点击查看](https://rwm01l8tn3x.feishu.cn/docx/NzyOdZ9yFoAfjfxTGZwc9aMpntg)
 
 
@@ -195,7 +195,7 @@
 
 ## 系统演示 🔗
 
-🖥️官网 https://www.urlnet.cn/
+🖥️官网 https://artaigc.cn
 
 
 🗣️ AIGC数字人 SaaS系统演示站点
@@ -204,12 +204,12 @@ AIGC数字人「PHP源码版」
 
 | 演示平台     | 演示地址                                                    | 账号     | 密码     |
 | -------------- | ------------------------------------------------------------- | ---------- | ---------- |
-| PC演示前台   | [PC系统演示](https://0k3yq4u4.chatmoney.cn) | 自行注册 | 自行注册 |
-| 站点管理端   | [管理端系统演示](https://iqujtpeg.chatmoney.cn/admin/) | admin | mddaiSaas |
-| SaaS平台端   | [SaaS端系统演示](https://dm-saas-demo.chatmoney.cn/platform/) | admin | mddaiSaas |
+| PC演示前台   | [PC系统演示](https:/v.cnai.art) | 自行注册 | 自行注册 |
+| 站点管理端   | [管理端系统演示](https://demo.cnai.art/admin/) | demo | demo |
+| SaaS平台端   | [SaaS端系统演示](demo.cnai.art/admin) | demo | demo |
 
  客户案列
-- [系统官网](http://urlnet.cn)
+- [系统官网](https://artaigc.cn)
 - [客户案列](https://1.jiweiyun.com/)
 - 系统演示版本：
 - 前端演示：[前端客户案列](https://1.jiweiyun.com/)
