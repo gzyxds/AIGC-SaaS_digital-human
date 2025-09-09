@@ -1,9 +1,6 @@
-
-![AI数字人系统源码](https://gitee.com/artaigc/human/raw/main/server/public/uploads/%E6%95%B0%E5%AD%97%E4%BA%BASaaS%E7%B3%BB%E7%BB%9F.png)
-![AI数字人系统源码](https://gitee.com/artaigc/human/raw/main/server/public/uploads/%E5%85%A8%E8%83%BDAI%E7%9F%A5%E8%AF%86%E5%BA%93.png)
-![AI数字人系统源码](https://gitee.com/artaigc/human/raw/main/server/public/uploads/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E7%B3%BB%E7%BB%9F.png)
-![AI数字人系统源码](https://gitee.com/artaigc/human/raw/main/server/public/uploads/%E8%81%8A%E5%A4%A9%E7%BB%98%E7%94%BB%E7%B3%BB%E7%BB%9F.png)
-  
+| ![AI数字人系统源码](https://gitee.com/artaigc/human/raw/main/server/public/uploads/%E6%95%B0%E5%AD%97%E4%BA%BASaaS%E7%B3%BB%E7%BB%9F.png) | ![AI数字人系统源码](https://gitee.com/artaigc/human/raw/main/server/public/uploads/%E5%85%A8%E8%83%BDAI%E7%9F%A5%E8%AF%86%E5%BA%93.png) |
+| --- | --- |
+| ![AI数字人系统源码](https://gitee.com/artaigc/human/raw/main/server/public/uploads/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E7%B3%BB%E7%BB%9F.png) | ![AI数字人系统源码](https://gitee.com/artaigc/human/raw/main/server/public/uploads/%E8%81%8A%E5%A4%A9%E7%BB%98%E7%94%BB%E7%B3%BB%E7%BB%9F.png) |
 
 # <div align="center">AI数字人系统源码</div>
 
