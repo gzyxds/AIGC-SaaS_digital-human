@@ -1,5 +1,0 @@
-    {COLUMN_NAME}: [{
-        required: true,
-        message: '{VALIDATE_MSG}',
-        trigger: ['blur']
-    }]

@@ -1,1 +1,0 @@
-"use strict";let e=null;exports.debounce=function(t,n=500,o=!1){if(null!==e&&clearTimeout(e),o){const o=!e;e=setTimeout((()=>{e=null}),n),o&&"function"==typeof t&&t()}else e=setTimeout((()=>{"function"==typeof t&&t()}),n)};

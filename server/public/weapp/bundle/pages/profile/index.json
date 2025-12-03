@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "形象",
-  "usingComponents": {
-    "fui-tabs": "../../../components/FuiTabs",
-    "profile-list": "./components/ProfileList",
-    "sound-list": "./components/SoundList"
-  }
-}

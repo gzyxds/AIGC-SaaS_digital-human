@@ -1,8 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "action-sheet": "../../../../components/ActionSheet",
-    "empty-status": "../../../../components/EmptyStatus",
-    "z-paging": "../../../../node-modules/z-paging/components/z-paging/z-paging"
-  }
-}

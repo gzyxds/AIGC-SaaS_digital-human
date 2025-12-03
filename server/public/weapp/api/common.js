@@ -1,1 +1,0 @@
-"use strict";const e=require("../composables/useRequest.js");exports.apiGetConfig=()=>e.useGetRequest("/index/config"),exports.apiGetCustomerConfig=()=>e.useGetRequest("/index/customer"),exports.apiGetIndexDecorateConfig=t=>e.useGetRequest("/index/decorate",t),exports.apiGetPolicy=t=>e.useGetRequest("/index/policy",{type:t});

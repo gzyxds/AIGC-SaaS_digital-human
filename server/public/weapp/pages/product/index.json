@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "作品",
-  "usingComponents": {
-    "tabbar": "../../components/Tabbar",
-    "fui-tabs": "../../components/FuiTabs",
-    "product-list": "./components/ProductList"
-  }
-}

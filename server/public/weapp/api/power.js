@@ -1,1 +1,0 @@
-"use strict";const e=require("../composables/useRequest.js");exports.apiGetAvatarPowerConfigAll=()=>e.useGetRequest("/power.powerConfig/getAllAvatarConfig"),exports.apiGetPowerPlanList=()=>e.useListRequest("/power.powerPackage/lists");

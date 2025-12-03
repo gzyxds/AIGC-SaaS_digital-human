@@ -1,1 +1,0 @@
-"use strict";require("../common/vendor.js");const e=require("../config/index.js"),r=require("../stores/app.js");require("../composables/useRequest.js"),require("./client.js"),exports.joinUrl=function(s){return r.useAppStore(),s.startsWith("http")?s:`${e.config.baseUrl}${s}`};

@@ -1,5 +1,0 @@
-!.gitignore
-miniprogram-ci/*.key
-miniprogram-ci/node_modules/*
-miniprogram-ci/package.json
-miniprogram-ci/package-lock.json

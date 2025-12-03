@@ -1,6 +1,0 @@
-<el-form-item label="{COLUMN_COMMENT}" prop="{COLUMN_NAME}">
-    <daterange-picker
-        v-model:startTime="formData.start_{COLUMN_NAME}"
-        v-model:endTime="formData.end_{COLUMN_NAME}"
-    />
-</el-form-item>
